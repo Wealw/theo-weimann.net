@@ -1,0 +1,98 @@
+{
+  "first_name": "Théo BAGUETTE",
+  "last_name": "Weimann",
+  "description": "Fourth grade student at Cesi and UQÀM",
+  "profile": {
+    "title" : "profile",
+    "content": "Looking for an internship or a pre-employment internship from february 2023 to august 2023 related to development of tools for infrastructure management or pre-sale engineering."
+  },
+  "experience": {
+    "title" : "experience",
+    "content" : [
+      {
+        "title": "Security analyst & System administrator",
+        "company": "LIEBHERR MINING EQUIPMENT Colmar",
+        "type": "Internship",
+        "date": "January 2021 - April 2021"
+      },
+      {
+        "title": "System and network administrator & Web developer",
+        "company": "City of Molsheim",
+        "type": "Internship",
+        "date": "March 2020 - July 2020"
+      }
+    ]
+  },
+  "education" : {
+    "title" : "education",
+    "content" : [
+      {
+        "degree": "Master degree of engineering in IT",
+        "school": "CESI",
+        "date": "2018 - 2023"
+      },
+      {
+        "degree": "Master degree in software engineering\n",
+        "school": "UQÀM",
+        "date": "2021 - 2022"
+      }
+    ]
+  },
+  "skills" : {
+    "title" :  "skills",
+    "content" : [
+      "Html / Css",
+      "Js / Ts",
+      "PHP",
+      "Svelte",
+      "Git",
+      "C#",
+      "Java",
+      "C / C++",
+      "Python",
+      "Powershell",
+      "Requirements expression",
+      "Agile management",
+      "Network & system",
+      "VM & Docker"
+    ]
+  },
+  "qualities" : {
+    "title" :  "qualities",
+    "content" : [
+      "Rigorous",
+      "Joyful",
+      "Fair",
+      "Punctual",
+      "Resolute"
+    ]
+  },
+  "languages" : {
+    "title" : "languages",
+    "content" : [
+      {
+        "lang" : "English",
+        "level" : "C1 & TOEIC 920"
+      },
+      {
+        "lang" : "French",
+        "level" : "Native"
+      },
+      {
+        "lang" : "German",
+        "level" : "A2"
+      }
+    ]
+  },
+  "contact" : {
+    "title" : "contact",
+    "content" : {
+      "phone" : "+33640881054",
+      "mail" : "theo.weimann@viacesi.fr",
+      "website" : "https://theo-weimann.net",
+      "linked-in" : "théo-weimann",
+      "github" : "Wealw",
+      "gitlab" : "Wealw"
+    }
+  }
+}
