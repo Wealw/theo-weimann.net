@@ -12,7 +12,7 @@
 <div class="container">
     <h2>{title}</h2>
     {#each content as contact}
-        {contact.lang} {contact.level}
+
     {/each}
 
 </div>

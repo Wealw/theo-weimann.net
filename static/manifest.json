@@ -4,14 +4,16 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "logo_512.png",
+      "src": "img/logo_512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo_192.png",
+      "src": "img/logo_192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     }
   ],
   "background_color": "#292a2d",
