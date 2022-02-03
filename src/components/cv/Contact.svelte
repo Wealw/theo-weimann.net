@@ -1,18 +1,10 @@
 <script>
-    export let title
-    export let content
 </script>
 
+<div class="container" />
+
 <style>
-    h2{
-        text-transform: uppercase;
-    }
+	h2 {
+		text-transform: uppercase;
+	}
 </style>
-
-<div class="container">
-    <h2>{title}</h2>
-    {#each content as contact}
-
-    {/each}
-
-</div>

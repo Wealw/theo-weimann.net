@@ -1,24 +1,24 @@
 {
-  "short_name": "theo-weimann.net",
-  "name": "theo-weimann.net",
-  "start_url": "/",
-  "icons": [
-    {
-      "src": "img/logo_512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "img/logo_192.png",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    }
-  ],
-  "background_color": "#292a2d",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#292a2d",
-  "description": "desc"
+	"short_name": "theo-weimann.net",
+	"name": "theo-weimann.net",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "img/logo_512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "img/logo_192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		}
+	],
+	"background_color": "#292a2d",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#292a2d",
+	"description": "desc"
 }

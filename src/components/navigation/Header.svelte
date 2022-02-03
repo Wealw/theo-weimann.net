@@ -1,22 +1,41 @@
 <script>
-
 </script>
 
-<style>
-    header{
-        height: 4em;
-        position: sticky;
-        top: 0;
-    }
-    img{
-        margin-left: 8px;
-        padding: 0.5em;
-        height: 75%;
-    }
-</style>
-
 <header>
-    <img src="/img/logo_512.png" alt="">
-    <span class="spacer"></span>
-    <a></a>
+	<img src="/img/logo_512.png" alt="" />
+	<span class="spacer" style="flex-grow: 1;" />
+	<ul>
+		<li><a href="#"><span class="indices">01 .</span> i want to die</a></li>
+	</ul>
 </header>
+
+<style>
+	header {
+		display: flex;
+		height: 4em;
+		position: sticky;
+		top: 0;
+		background-color: inherit;
+		box-shadow: rgba(0, 0, 0, 0.38) 3px 3px 8px;
+		z-index: 9999;
+	}
+	img {
+		margin: 0 8px;
+		padding: 0.5em;
+		height: 3em;
+		width: 3em;
+	}
+	a {
+		height: 4em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		color: inherit;
+	}
+	.indices {
+		color: red;
+	}
+	@media screen {
+	}
+</style>
