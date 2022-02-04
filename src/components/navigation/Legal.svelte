@@ -3,11 +3,11 @@
 	export let content;
 </script>
 
-<div class="container" />
+<div class="container"></div>
 
 <footer>
 	<div class="floater">
-		<span class="grab" />
+		<span class="grab"></span>
 	</div>
 	<div>
 		<h2>{title}</h2>

@@ -3,7 +3,7 @@
 
 <header>
 	<img src="/img/logo_512.png" alt="" />
-	<span class="spacer" style="flex-grow: 1;" />
+	<span class="spacer" style="flex-grow: 1;"></span>
 	<ul>
 		<li><a href="/fr"><span class="indices">01 .</span> i want to die</a></li>
 	</ul>

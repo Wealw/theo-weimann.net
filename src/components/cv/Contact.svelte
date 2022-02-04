@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="container" />
+<div class="container"></div>
 
 <style>
 	h2 {

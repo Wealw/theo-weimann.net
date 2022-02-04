@@ -32,7 +32,7 @@
 <div bind:clientWidth={x_size} bind:clientHeight={y_size} style={grid_cssVarStyles}>
 	{#each { length: ~~((x_size / size + 1) / 2) } as x}
 		{#each { length: ~~((y_size / size + 1) / 2) } as y}
-			<i class="dot" style={dot_cssVarStyles} />
+			<i class="dot" style={dot_cssVarStyles}></i>
 		{/each}
 	{/each}
 </div>
