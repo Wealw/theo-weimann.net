@@ -12,6 +12,7 @@ lang = {
 	},
 	legal: {
 		title: 'Mention légales',
-		content: "Hébergeur : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris , Téléphone : +33 7 57 90 52 73 Aucun cookie n'est utilisé sur ce site. Aucun traitement de données personelles n'est réalisé sur ce site"
+		content:
+			"Hébergeur : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris , Téléphone : +33 7 57 90 52 73 Aucun cookie n'est utilisé sur ce site. Aucun traitement de données personelles n'est réalisé sur ce site"
 	}
 };

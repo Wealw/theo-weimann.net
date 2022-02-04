@@ -1,7 +1,6 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess';
 
-// noinspection JSValidateTypes,SpellCheckingInspection
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -10,14 +9,21 @@ const config = {
 
 	kit: {
 		adapter: adapter()
+
 	},
-	files: {
-		assets: 'static',
-		hooks: 'src/hooks/*',
-		lib: 'src/lib',
-		routes: 'src/routes',
-		serviceWorker: 'src/service-worker',
-		template: 'src/app.html'
+	package: {
+		dir: 'package',
+		emitTypes: true,
+		// excludes all .d.ts and files starting with _ as the name
+		exports: (filepath) => !/^_|\/_|\.d\.ts$/.test(filepath),
+		files: () => true
+	},
+	floc: false,
+	serviceWorker: {
+		register: true,
+		files: (filepath) => !/\.DS_STORE/.test(filepath)
+	},
+	vite: () => {
 	}
 };
 
