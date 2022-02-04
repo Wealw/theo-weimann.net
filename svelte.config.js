@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess';
 
+// noinspection JSValidateTypes
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://github.com/sveltejs/svelte-preprocess
@@ -11,20 +12,7 @@ const config = {
 		adapter: adapter()
 
 	},
-	package: {
-		dir: 'package',
-		emitTypes: true,
-		// excludes all .d.ts and files starting with _ as the name
-		exports: (filepath) => !/^_|\/_|\.d\.ts$/.test(filepath),
-		files: () => true
-	},
-	floc: false,
-	serviceWorker: {
-		register: true,
-		files: (filepath) => !/\.DS_STORE/.test(filepath)
-	},
-	vite: () => {
-	}
+	floc: false
 };
 
 // noinspection JSUnusedGlobalSymbols
