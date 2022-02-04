@@ -1,10 +1,5 @@
 let handledLanguages = ['fr', 'en', 'de', 'jp'];
 
-export async function handleLanguageRedirection({ event, resolve }): Promise<Response> {
-	event.locals.languages = event.request.headers.get('accept-language');
-	return await resolve(event);
-}
-
 export async function handleLanguageAccessibility({ event, resolve }): Promise<Response> {
 	const response = await resolve(event);
 	let uri = event.url.pathname;
