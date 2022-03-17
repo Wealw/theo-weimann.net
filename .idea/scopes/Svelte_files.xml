@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Svelte files" pattern="!file[theo-weimann.net]:.idea/*&amp;&amp;!file:.npmrc&amp;&amp;!file:package-lock.json&amp;&amp;!file:README.md&amp;&amp;!file:package.json&amp;&amp;!file:.nvmrc&amp;&amp;!file:.prettierrc&amp;&amp;!file:svelte.config.js&amp;&amp;!file:tsconfig.json&amp;&amp;!file:.eslintrc.cjs" />
+</component>
