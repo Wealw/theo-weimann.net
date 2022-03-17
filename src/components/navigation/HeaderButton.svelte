@@ -1,0 +1,30 @@
+<script lang="ts">
+	export let href
+	export let lang
+
+	function goTo() : void{
+		let instance = document.getElementById(href);
+		let y = instance.getBoundingClientRect().top + window.scrollY - 64 - 32
+		window.scrollTo({top: y, behavior: 'smooth'})
+	}
+</script>
+
+<a on:click={goTo}><span class='number'>01.</span> {lang}</a>
+<style>
+    a {
+        height: 4em;
+				text-decoration: none;
+				color: inherit;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 0 0 0 2em;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+
+    .number {
+        color: #b90b64;
+    }
+</style>

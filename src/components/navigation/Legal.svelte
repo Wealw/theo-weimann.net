@@ -3,36 +3,27 @@
 	export let content;
 </script>
 
-<div class="container"></div>
+<div class='container'></div>
 
 <footer>
-	<div class="floater">
-		<span class="grab"></span>
-	</div>
-	<div>
+	<img src='/img/logo/favicon.svg' height='128px' width='128px' alt='logo'>
+	<div class='aligner'>
 		<h2>{title}</h2>
 		<p>{content}</p>
 	</div>
 </footer>
 
 <style>
-	footer {
-		position: fixed;
-		bottom: calc(15px);
-	}
-	.floater {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: sticky;
-		bottom: 0;
-		height: 15px;
-		width: 100%;
-	}
-	.grab {
-		width: 4em;
-		height: 7px;
-		background-color: black;
-		border-radius: 10px;
-	}
+    footer {
+        box-shadow: rgba(0, 0, 0, 0.35) 3px 3px 8px 2px;
+        bottom: calc(15px);
+        color: white;
+        background: black;
+				padding: 1em 0;
+				display: flex;
+				justify-content: center;
+    }
+		.aligner{
+				max-width: 400px;
+		}
 </style>
