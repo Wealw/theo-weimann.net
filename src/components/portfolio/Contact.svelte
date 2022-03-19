@@ -4,9 +4,7 @@
 	let email = '';
 	let message = '';
 
-	let hasError = false;
 	let isFormSubmitted = false;
-	let submitted = false;
 
 	function handleSubmit() {
 		isFormSubmitted = true;

@@ -10,7 +10,7 @@
 				<p>{paragraph}</p>
 			{/each}
 		</div>
-		<img src='/img/photo/theo.webp' alt='Théo Weimann'>
+		<img src='/img/photo/theo.webp' alt='Photo'>
 	</div>
 </section>
 

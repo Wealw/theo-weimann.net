@@ -1,11 +1,11 @@
 <script lang="ts">
-	export let href
-	export let lang
-	export let num
+	export let href;
+	export let lang;
+	export let num;
 
 	function goTo() : void{
 		let instance = document.getElementById(href);
-		let y = instance.getBoundingClientRect().top + window.scrollY - 64 - 32
+		let y = instance.getBoundingClientRect().top + window.scrollY - 64 - 32;
 		window.scrollTo({top: y, behavior: 'smooth'})
 	}
 </script>
