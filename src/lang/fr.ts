@@ -22,58 +22,24 @@ lang = {
 		content: [
 			{
 				title: 'Portfolio',
-				content: "Mon portfolio personnel qui recensse l'ensemble de mes projets personnels et de cours.",
-				image : '/img/logo/favicon.svg',
+				content: 'Mon portfolio personnel qui recensse l\'ensemble de mes projets personnels et de cours.',
+				image: '/img/logo/favicon.svg',
 				link_realisation: 'https://theo-weimann.net',
 				link_sources: 'https://github.com/Wealw/theo-weimann.net'
 			},
 			{
-				title: 'MGL869C - TP 6',
-				content: "TP 6 du cours MGL869C de l'ETS pour la session d'hiver 2021.",
-				image : '/img/logo/ets.webp',
-				link_sources: 'https://gitlab.com/wealw/study_a4_tp6-mgl869c'
+				title: 'InaDyn Cloudflare Worker',
+				content: 'Une version adapté à mes besoins d\'un worker Cloudflare pour mettre à jour des record DNS depuis un routeur Ubiquiti Unifi Dream Machine Pro.',
+				image: '/img/logo/cloudflare.svg',
+				link_realisation: 'https://theo-weimann.net',
+				link_sources: 'https://github.com/Wealw/theo-weimann.net'
 			},
 			{
-				title: 'MGL869C - TP 5',
-				content: "TP 5 du cours MGL869C de l'ETS pour la session d'hiver 2021.",
-				image : '/img/logo/ets.webp',
-				link_sources: 'https://gitlab.com/wealw/study_a4_tp5-mgl869c'
-			},
-			{
-				title: 'MGL869C - TP 4 - Partie 2',
-				content: "Partie 2 du TP4 du cours MGL869C de l'ETS pour la session d'hiver 2021.",
-				image : '/img/logo/ets.webp',
-				link_sources: 'https://gitlab.com/wealw/study_a4_tp4-p2_mgl869c'
-			},
-			{
-				title: 'MGL869C - TP 4 - Partie 1',
-				content: "Partie 1 du TP4 du cours MGL869C de l'ETS pour la session d'hiver 2021.",
-				image : '/img/logo/ets.webp',
-				link_sources: 'https://gitlab.com/wealw/study_a4_tp4-p1_mgl869c'
-			},
-			{
-				title: 'MGL869C - TP 3',
-				content: "TP3 du cours MGL869C de l'ETS pour la session d'hiver 2021.",
-				image : '/img/logo/ets.webp',
-				link_sources: 'https://gitlab.com/wealw/study_a4_tp4-p1_mgl869c'
-			},
-			{
-				title: 'MGL7460 - Projet 3',
-				content: "Projet 3 du cours MGL7460 de l'UQAM pour la session d'automne 2021.",
-				image : '/img/logo/uqam.webp',
-				link_sources: 'https://gitlab.com/wealw/Projet_3_MGL7460'
-			},
-			{
-				title: 'MGL7460 - Projet 2',
-				content: "Projet 2 du cours MGL7460 de l'UQAM pour la session d'automne 2021.",
-				image : '/img/logo/uqam.webp',
-				link_sources: 'https://gitlab.com/wealw/Projet_2_MGL7460'
-			},
-			{
-				title: 'MGL7460 - Projet 2',
-				content: "Projet 1 du cours MGL7460 de l'UQAM pour la session d'automne 2021.",
-				image : '/img/logo/uqam.webp',
-				link_sources: 'https://gitlab.com/wealw/Projet_1_MGL7460'
+				title: 'QMK Firmware : Custom config',
+				content: 'Ma propre configuration du firmware QMK pour mon clavier méchanique personalisé.',
+				image: '/img/logo/QMK.webp',
+				link_realisation: 'https://theo-weimann.net',
+				link_sources: 'https://github.com/Wealw/theo-weimann.net'
 			}
 		]
 
@@ -91,6 +57,9 @@ lang = {
 	legal: {
 		title: 'Mention légales',
 		content:
-			'Hébergeur : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris , Téléphone : +33 7 57 90 52 73 Aucun cookie n\'est utilisé sur ce site. Aucun traitement de données personelles n\'est réalisé sur ce site'
+			['Hébergeur : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris',
+				'Téléphone : +33 7 57 90 52 73',
+				'Aucun cookie n\'est utilisé sur ce site.',
+				'Aucun traitement de données personelles n\'est réalisé sur ce site.']
 	}
 };

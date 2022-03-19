@@ -1,6 +1,7 @@
 <script lang="ts">
 	export let href
 	export let lang
+	export let num
 
 	function goTo() : void{
 		let instance = document.getElementById(href);
@@ -9,7 +10,7 @@
 	}
 </script>
 
-<a on:click={goTo}><span class='number'>01.</span> {lang}</a>
+<a on:click={goTo}><span class='number'>{num}.</span> {lang}</a>
 <style>
     a {
         height: 4em;
@@ -22,6 +23,7 @@
     }
     a:hover{
         cursor: pointer;
+				text-decoration: underline;
     }
 
     .number {

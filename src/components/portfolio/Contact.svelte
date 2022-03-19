@@ -61,7 +61,9 @@
         max-width: calc(100% - 2em - 4px);
         padding: 0.75em 1em;
         margin-bottom: 1em;
-    }
+    		border-radius: 0.5em;
+				border: #575756 solid 1px;
+		}
 
     textarea {
         min-height: 6em;
@@ -74,4 +76,11 @@
     input:invalid {
         border-color: #EE3D65;
     }
+
+		button{
+				border-radius: 0.5em;
+        border: #575756 solid 1px;
+				background-color: #b90b64;
+        padding: 0.75em 1em;
+		}
 </style>

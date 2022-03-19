@@ -47,6 +47,12 @@
         border-radius: 4px;
         float: right;
 				margin: 2em;
+				transition: border-radius  .1s ease-in-out , transform .1s ease-in-out;
+    }
+
+    img:hover{
+				border-radius: 0;
+				transform: scale(1.1);
     }
 
     p {
@@ -56,4 +62,6 @@
     .number {
         color: #b90b64;
     }
+
+
 </style>

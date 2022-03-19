@@ -4,7 +4,7 @@
 	let scroll_state = 0;
 	import HeaderButton from './HeaderButton.svelte';
 
-	export let lang
+	export let lang;
 
 	onMount(async () => {
 		// noinspection JSValidateTypes
@@ -24,9 +24,9 @@
 <header class:on_top={scroll_state !== 0}>
 		<img src='img/logo/favicon.svg' alt='logo' on:click={goOnTop}>
 	<ul>
-		<li><HeaderButton href="about" lang={lang.profile.title}/></li>
-		<li><HeaderButton href="projects" lang={lang.project.title}/></li>
-		<li><HeaderButton href="contact" lang={lang.contact.title}/></li>
+		<li><HeaderButton href="about" lang={lang.profile.title} num='01'/></li>
+		<li><HeaderButton href="projects" lang={lang.project.title} num='02'/></li>
+		<li><HeaderButton href="contact" lang={lang.contact.title} num='03'/></li>
 	</ul>
 </header>
 
