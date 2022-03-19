@@ -4,7 +4,7 @@
 
 <div class='container'>
 	<div class='aligner'>
-		<a href=''><img src='/img/logo/linkedin.svg' alt='linkedin'></a>
+		<a href='https://www.linkedin.com/in/th%C3%A9o-weimann/'><img src='/img/logo/linkedin.svg' alt='linkedin'></a>
 		<a href='https://github.com/Wealw'><img src='/img/logo/github.svg' alt='github'></a>
 		<a href='https://gitlab.com/wealw'><img src='/img/logo/gitlab.svg' alt='gitlab'></a>
 		<div style='margin: auto'><div class='bar'></div></div>
