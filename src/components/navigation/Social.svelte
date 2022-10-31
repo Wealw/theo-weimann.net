@@ -7,6 +7,7 @@
 		<a href='https://www.linkedin.com/in/th%C3%A9o-weimann/'><img src='/img/logo/linkedin.svg' alt='linkedin'></a>
 		<a href='https://github.com/Wealw'><img src='/img/logo/github.svg' alt='github'></a>
 		<a href='https://gitlab.com/wealw'><img src='/img/logo/gitlab.svg' alt='gitlab'></a>
+        <a href='mailto:theo.weimann@viacesi.fr'><img src='/img/logo/mail.svg' alt='email'></a>
 		<div style='margin: auto'><div class='bar'></div></div>
 	</div>
 </div>

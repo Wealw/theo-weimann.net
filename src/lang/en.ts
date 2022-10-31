@@ -5,16 +5,16 @@ lang = {
 	home: {
 		first_name: 'Théo',
 		last_name: 'Weimann',
-		description: 'Étudiant de 5ème année à Cesi et diplomé de l\'UQÀM'
+		description: 'Fith year student at Cesi and graduate from UQÀM.'
 	},
 	profile: {
-		title: 'Profil',
+		title: 'Profile',
 		content:
 			[
-				'Salut, je m\'appelle Théo Weimann, je suis un passioné d\'informatique et d\'éléctronique. J\'aime aussi beaucoup l\'escalade et le tir à l\'arc.',
-				'Je vis dans une petite ville proche de Strasbourg. J\'étudie actuelement l\'informatique à Cesi Ecole d\'Ingéneur et j\'ai pris part à un échange d\'un an avec l\'UQAM à Montréal au Canada.',
-				'Tout au long de ma carrière, j\'ai eu l\'occasion de travailler dans des domaines variés, de la fonction publique térritoriale à la multi-nationale. J\'ai aussi eu de bonnes experience internationales lors de mes voyages.',
-				'Je suis quelqu\'un de très minutieux dans mon travail, j\'aime constament découvir de nouvelle choses et rélever des défis! J\'ai fais l\'effort d\'aquérir un haut niveau d\'expertise afin de toujours être en mesure d\'assumer aux mieux mes choix.'
+				'Oy, my name is Théo Weimann, I\'m a french student in IT. I also like bouldering with friends and practice archery.',
+				'I live in a small town near Strasbourg in France, and I\'m looking for an internship and maybe more if there are opportunities ;).',
+				'During my previous internships I worked in various domain and country, from public to industries and France to Canada. I\'m looking for ways to discover even more.',
+				'I\'m someone very curious and constantly looking for challenges. If you found my profile intressting don\'t hesitate to contact me.',
 			]
 	},
 	project: {
@@ -57,9 +57,9 @@ lang = {
 	legal: {
 		title: 'Mention légales',
 		content:
-			['Hébergeur : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris',
-				'Téléphone de l\'héherbgeur : +33 7 57 90 52 73',
-				'Aucun cookie n\'est utilisé sur ce site.',
-				'Aucun traitement de données personelles n\'est réalisé sur ce site.']
+			['Host : Cloudflare Adresse : 6 place de la Madeleine 75008 Paris',
+				'Host Phone : +33 7 57 90 52 73',
+				'No cookies are used on this site.',
+				'No personal data are treated on this site.']
 	}
 };
