@@ -40,6 +40,10 @@
 		img{
 				padding: 4em 4em 4em 2em ;
 		}
+
+		img:hover{
+				cursor: pointer;
+		}
 		@media (max-width: 500px) {
 				img{
 						display: none;

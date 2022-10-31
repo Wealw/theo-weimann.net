@@ -15,19 +15,23 @@
 		});
 	});
 
-	function goOnTop(){
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
+	function goToPageTop(){
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		})
 	}
 </script>
 
 <header class:on_top={scroll_state !== 0}>
-		<img src='img/logo/favicon.svg' alt='logo' on:click={goOnTop}>
-	<ul>
+		<img src='img/logo/favicon.svg' alt='logo' on:click={goToPageTop}>
+	<!--
+    <ul>
 		<li><HeaderButton href="about" lang={lang.profile.title} num='01'/></li>
 		<li><HeaderButton href="projects" lang={lang.project.title} num='02'/></li>
 		<li><HeaderButton href="contact" lang={lang.contact.title} num='03'/></li>
 	</ul>
+    -->
 </header>
 
 <style>
@@ -50,6 +54,10 @@
         height: 3em;
         width: 3em;
     }
+
+		img:hover{
+				cursor: pointer;
+		}
 
     .on_top {
         transition: padding 200ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);

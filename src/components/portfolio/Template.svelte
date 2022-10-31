@@ -15,8 +15,8 @@
 <main>
 	<Title lang={lang.home} />
 	<Presentation lang={lang.profile} />
-	<Projects lang={lang.project}/>
-	<Contact lang={lang.contact}/>
+	<!--<Projects lang={lang.project}/>-->
+	<!--<Contact lang={lang.contact}/>-->
 </main>
 <Social/>
 <Legal title={lang.legal.title} content={lang.legal.content} />
